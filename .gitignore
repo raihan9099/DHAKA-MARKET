@@ -1,0 +1,27 @@
+# Ignore runtime core and vendor
+/core/
+/vendor/
+
+# Ignore uploads and user-generated content
+/content/uploads/
+
+# Ignore environment and secrets
+.env
+config.php
+
+# Ignore caches and build outputs
+/node_modules/
+/dist/
+/.cache/
+/*.log
+
+# Ignore database dumps
+*.sql
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
