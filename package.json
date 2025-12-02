@@ -1,0 +1,29 @@
+{
+  "name": "dhaka-market-assets",
+  "version": "1.0.0",
+  "description": "Frontend assets for Dhaka Market site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "sass": "sass src/scss:dist/css --no-source-map"
+  },
+  "keywords": [
+    "frontend",
+    "vite",
+    "scss",
+    "javascript",
+    "dhaka-market"
+  ],
+  "author": "Your Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "sass": "^1.70.0",
+    "eslint": "^8.55.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
